@@ -42,18 +42,15 @@ use_preset_vocabulary: true
 #雙拼不支持 luna_pinyin.cn_en 詞庫，請用戶手動禁用。
 
 import_tables:
-  - essay
-  - luna_pinyin
-  - luna_pinyin.popular
-  - luna_pinyin.xiandaihanyu
-  - luna_pinyin.chengyusuyu
-  - luna_pinyin.computer
-  - luna_pinyin.kaifa
-  - luna_pinyin.poetry
-  - luna_pinyin.chat
-  - luna_pinyin.place
-  - luna_pinyin.shopping
-  - luna_pinyin.website
-  - luna_pinyin.mingxing
-  - luna_pinyin.comprehensive
+  - dicts/luna_pinyin.sougou.basic
+  - dicts/luna_pinyin.popular
+  - dicts/luna_pinyin.xiandaihanyu
+  - dicts/luna_pinyin.chengyusuyu
+  - dicts/luna_pinyin.computer
+  - dicts/luna_pinyin.kaifa
+  - dicts/luna_pinyin.poetry
+  - dicts/luna_pinyin.chat
+  - dicts/luna_pinyin.place
+  - dicts/luna_pinyin.shopping
+  - dicts/luna_pinyin.website
 ...
